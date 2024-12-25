@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>JavaScript Objects</h2>
+    <p id="demo"></p>
+    <script>
+      var person = {
+        firstName: "Mohammed",
+        lastName: "Sufi",
+        age: 12,
+        height: 5.1,
+      };
+      document.getElementById(
+        "demo"
+      ).innerHTML = `I am ${person.firstName} ${person.lastName}.<br>
+                                                I am ${person.age}  years old also I am ${person.height} feet tall`;
+      var value = Math.acos(-1);
+      var value2 = Math.asin(0.5);
+      var value3 = Math.atan(1);
+      document.write("Demo1 Test Value : " + value + "<br>");
+      document.write("Demo1 Test Value : " + value2 + "<br>");
+      document.write("Demo1 Test Value : " + value3 + "<br>");
+    </script>
+  </body>
+</html>
